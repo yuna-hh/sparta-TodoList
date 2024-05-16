@@ -1,8 +1,23 @@
-# React + Vite
+# Todo List
+Todo List를 작성할 수 있는 페이지 입니다 !
+진행중인 리스트는 Working에 들어가고, 완료한 리스트는 Done으로 이동이 가능합니다 !
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ㅤ
+ㅤ
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Stack
+- React
+
+ㅤ
+ㅤ
+ㅤ
+
+# 기능
+> - 리스트 제목 및 내용 추가 기능
+> - 제목이나 내용 빈 값일 경우 경고창 출력
+> - 내용 30자가 넘을 경우 경고창 출력
+> - 리스트 삭제하기
+> - 완료시 Done 영역으로 이동
+> - Done 영역 취소 버튼
