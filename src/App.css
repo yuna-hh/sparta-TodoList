@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+header span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.add-form {
+  display: flex;
+  align-items: center;
+  padding: 20px 25px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-sizing: border-box;
+  gap: 10px;
+}
+.add-form span {
+  font-weight: bold;
+}
+
+.add-form input {
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.add-form button {
+  font-size: 15px;
+  margin-left: auto;
+  padding: 15px 40px;
+  background-color: #fff08c;
+  border: transparent;
+  border-radius: 100px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+h2 {
+  margin: 20px 0px;
+}
+
+.working-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.working-card {
+  padding: 25px 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.working-card p {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+.working-delete-btn {
+  width: 87px;
+  background-color: #fcb96a;
+  padding: 6px 20px;
+  border: transparent;
+  border-radius: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.working-done-btn {
+  width: 87px;
+  padding: 6px 20px;
+  background-color: #fff08c;
+  border: transparent;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.working-done-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
